@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Music4All</title>
+    <title>Music4All with Praiseaddict</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -20,9 +20,40 @@
             margin: 0 auto 20px;  /* Centers the image horizontally and adds space below */
         }
 
-        /* Additional centering for image sections */
-        .image-container {
+        /* Additional styles for testimonials */
+        .main {
             text-align: center;
+        }
+
+        .testimonial {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .testimonial h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .testimonial span {
+            display: block;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .testimonial hr {
+            margin: 20px 0;
         }
 
         /* Ensure rows are properly styled */
@@ -58,7 +89,7 @@
                     <!-- About Praiseaddict -->
                     <h2 id="content">About Praiseaddict</h2>
                     <div class="image-container">
-                        <img src="images/Bro Bayo.png" alt="Oladipo Adebayo Ebiesuwa" class="round-frame">
+                        <img src="C:\Users\OLA\Desktop\music4All.github.io-main\music4All.github.io-main\images\000001.png" class="round-frame">
                     </div>
                     <p>
                         Oladipo Adebayo Ebiesuwa, (pka Praiseaddict), is a dedicated worship and praise leader with a longstanding commitment to the Redeemed Christian Church of God (RCCG) since 1998. He began his journey as a choir member in the children and teens' choir, progressing into the main adult choir. 
@@ -74,7 +105,7 @@
                     <!-- About Olasoji Oluwa -->
                     <h2 id="content">About Olasoji Oluwa</h2>
                     <div class="image-container">
-                        <img src="images/WhatsApp Image 2024-06-13 at 08.35.44_372db5e6.jpg" alt="Olasoji Oluwa" class="round-frame">
+                        <img src="C:\Users\OLA\Desktop\music4All.github.io-main\music4All.github.io-main\images\000002.jpg" alt="Olasoji Oluwa" class="round-frame">
                     </div>
                     <p>
                         Olasoji Oluwa is a distinguished Singer, Pianist, Voice Coach, and Music Director with extensive experience in gospel songwriting, choral and instrumental music arrangement. 
@@ -86,7 +117,7 @@
                     <!-- About Soye Aguda -->
                     <h2 id="content">About Soye Aguda</h2>
                     <div class="image-container">
-                        <img src="images/SOYE_music4all.jpg" alt="Soye" class="round-frame">
+                        <img src="C:\Users\OLA\Desktop\music4All.github.io-main\music4All.github.io-main\images\00000003.jpg" alt="Soye" class="round-frame">
                     </div>
                     <p>
                         Soye is an exceptional gospel artist with a rich background as a lead vocalist, songwriter, music director, and mentor. Her passion for music was ignited during her childhood and teenage years, where she quickly rose to prominence by taking on lead roles in various choir groups. 
@@ -112,34 +143,39 @@
                     </form>
                 </section>
 
-                <!-- Menu -->
-                <nav id="menu">
-                    <header class="major">
-                        <h2>Menu</h2>
-                    </header>
-                    <ul>
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="generic.html">Testimonials</a></li>
-                        <li><a href="elements.html">Meet the Facilitators</a></li>
-                    </ul>
-                </nav>
-
-                <!-- Footer -->
-                <footer id="footer">
-                    <p class="copyright">&copy; Music4All. All rights reserved.</p>
-                </footer>
-
+                <!-- Section -->
+                <section>
+                    <h2>Contact Us</h2>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="primary" /></li>
+                        </ul>
+                    </form>
+                </section>
             </div>
         </div>
-
     </div>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 </html>
